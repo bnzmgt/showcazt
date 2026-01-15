@@ -1,0 +1,88 @@
+#showonsingle.showcazt-products {
+    display: flex;
+}
+
+#showonsingle.showcazt-products .show-slider .swiper-button-next,
+#showonsingle.showcazt-products .show-slider .swiper-button-prev {
+    display: none;
+}
+
+#showonsingle.showcazt-products .showcazt-single-product {
+    background-color: #ffffff;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+    padding: 0;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    #showonsingle.showcazt-products .showcazt-single-product {
+        padding: 1rem;
+        width: auto;
+    }
+}
+
+#showonsingle.showcazt-products .showcazt-single-product a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#showonsingle.showcazt-products .showcazt-single-product a .show-slider {
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media (max-width: 767px) {
+    #showonsingle.showcazt-products .showcazt-single-product a .show-slider {
+        width: 30%;
+    }
+}
+
+#showonsingle.showcazt-products .showcazt-single-product a .show-slider .swiper-button-next,
+#showonsingle.showcazt-products .showcazt-single-product a .show-slider .swiper-button-prev,
+#showonsingle.showcazt-products .showcazt-single-product a .show-slider .swiper-pagination {
+    display: none;
+}
+
+#showonsingle.showcazt-products .showcazt-single-product a .show-slider .rte img {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#showonsingle.showcazt-products .showcazt-single-product a .showcazt-info {
+    padding-left: 1.25rem;
+}
+
+#showonsingle.showcazt-products .showcazt-single-product a .showcazt-info h3 {
+    font-size: 1rem; /* text-base */
+    font-weight: 600; /* font-semibold */
+}
+
+#showonsingle.showcazt-products .showcazt-single-product a .showcazt-info .product-price {
+    font-size: 0.875rem; /* text-sm */
+    font-weight: 400; /* font-normal */
+}
+
+/* Default Grid Product Style */
+.showcazt-product .show-slider .swiper-button-next,
+.showcazt-product .show-slider .swiper-button-prev {
+    display: none;
+}
+
+.showcazt-product .showcazt-info {
+    margin-top: 1rem;
+}
+
+.showcazt-product .showcazt-info .product-name {
+    font-weight: 600; /* font-semibold */
+}
+
+.showcazt-product .showcazt-info .product-price {
+    font-size: 0.875rem; /* text-sm */
+}
